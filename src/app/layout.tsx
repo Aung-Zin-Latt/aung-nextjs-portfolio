@@ -25,12 +25,12 @@ export const metadata: Metadata = {
   },
   description:
     "Senior full-stack engineer (Laravel, Vue/React, AWS, Kubernetes) seeking Singapore on-site roles — rostering, visitor management, and enterprise PWAs.",
-  metadataBase: new URL("https://aungzinlat.netlify.app"),
+  metadataBase: new URL("https://aungzinlatt.netlify.app"),
   openGraph: {
     title: "Aung Zin Latt · Senior Full-Stack Engineer",
     description:
       "Mission-critical systems, microservices on AWS, and full-stack delivery for security operations platforms.",
-    url: "https://aungzinlat.netlify.app",
+    url: "https://aungzinlatt.netlify.app",
     siteName: "Aung Zin Latt",
     locale: "en_SG",
     type: "website",
