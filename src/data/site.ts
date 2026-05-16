@@ -9,7 +9,7 @@ export const siteConfig = {
   title: "AUNG ZIN LATT",
   tagline: "Full-Stack Development",
   /** Portrait in /public (served from site root). */
-  profileImage: "/profile/profile.jpeg",
+  profileImage: "/profile/AUNG-ZIN-LATT-aungzinlatt007@gmail.com.png",
   /** PDF under /public/files (URL path from site root). */
   cvUrl: "/files/AUNG-ZIN-LATT.pdf",
   location: {
