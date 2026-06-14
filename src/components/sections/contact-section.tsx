@@ -28,7 +28,7 @@ export function ContactSection() {
     { icon: Phone, label: "Phone", value: contact.phone, href: `tel:${contact.phone.replace(/\s/g, "")}` },
     {
       icon: MapPin,
-      label: "On-site focus",
+      label: "Location",
       value: `${siteConfig.location.label} · ${siteConfig.location.detail}`,
       href: null,
     },
@@ -66,7 +66,9 @@ export function ContactSection() {
               <div className="absolute inset-0 -z-[5] rounded-2xl bg-card/80 backdrop-blur-xl" />
 
               <h3 className="font-heading text-lg font-semibold text-foreground">Contact channels</h3>
-              <p className="mb-8 text-base text-muted-foreground">Singapore on-site roles preferred — remote only for exceptional fit.</p>
+              <p className="mb-8 text-base text-muted-foreground">
+                Open to Singapore on-site, global remote, and Vietnam/Malaysia on-site roles — share the role, stack, and timeline.
+              </p>
 
               <div className="space-y-4">
                 {infoRows.map((row, i) => {

@@ -7,16 +7,17 @@ export const siteConfig = {
   name: "Aung Zin Latt",
   shortName: "Aung Zin Latt",
   title: "AUNG ZIN LATT",
-  tagline: "Full-Stack Development",
+  tagline: "Enterprise & Product Delivery",
   /** Portrait in /public (served from site root). */
   profileImage: "/profile/AUNG-ZIN-LATT-aungzinlatt007@gmail.com.png",
   /** PDF under /public/files (URL path from site root). */
-  cvUrl: "/files/AUNG-ZIN-LATT.pdf",
+  cvUrl: "/files/Aung-Zin-Latt-Full-Stack-Engineer-SG-On-site.pdf",
   location: {
-    label: "Singapore (on-site)",
-    detail: "S Pass / EP",
+    label: "Da Nang City, Vietnam",
+    detail: "Open to Singapore on-site · global remote · Vietnam/Malaysia on-site",
   },
-  availabilityBadge: "Singapore on-site · S Pass / EP",
+  workAuthorization: "S Pass / Employment Pass eligible",
+  availabilityBadge: "Open to opportunities · Singapore on-site · global remote · Vietnam/Malaysia on-site",
   contact: {
     email: "aungzinlatt007@gmail.com",
     whatsapp: "+65 989 26222",
@@ -40,27 +41,29 @@ export const siteConfig = {
   },
   stats: {
     yearsHandsOn: "7+",
-    yearsIndustry: "6+",
+    yearsIndustry: "7+",
   },
   social: {
-    github: "https://github.com/Aung-Zin-Latt",
-    githubLabel: "github.com/Aung-Zin-Latt",
+    github: "https://github.com/liam-dev",
+    githubLabel: "github.com/liam-dev",
   },
   summary: {
     headline:
-      "Senior full-stack engineer with 7+ years of hands-on development and 6+ years delivering production systems.",
+      "Senior Full-Stack Engineer with 7+ years hands-on development and enterprise system ownership across Singapore security operations, workflow automation, and customer-facing applications.",
     body: [
-      "I lead delivery of mission-critical products end-to-end — from Laravel/Vue and React/Next services to AWS infrastructure, Docker, and Kubernetes. Recent focus: rostering, visitor management, and field PWAs for enterprise security operations.",
-      "I care about clean architecture, mentoring, rigorous reviews, and owning the lifecycle: implementation, CI/CD, and operational stability — including polished public-facing work (this portfolio ships on Next.js + TypeScript).",
+      "Full-stack production expertise in PHP, Laravel, JavaScript, React.js, Vue.js, Next.js, Node.js, and TypeScript — from Metropolis Security Systems (Singapore) through ITVISIONHUB product delivery in Myanmar.",
+      "Delivers business-critical systems on AWS, DigitalOcean, Docker, and CI/CD with focus on scalable architecture, release reliability, and maintainability. At Metropolis, reduced operational processing overhead by 65%, cut production downtime by 40%, and supported platforms processing 1,000+ daily attendance records across 75+ active Singapore client sites (100+ total deployments).",
     ],
   },
   hero: {
+    roleTitle: "Senior Full-Stack Engineer",
+    roleSubtitle: "Laravel · React.js · Node.js · AWS · Enterprise & Product Delivery",
     proofPoints: [
-      "7+ years hands-on development",
-      "Microservices",
-      "High-volume systems",
-      "AWS production ownership",
-      "Real-time processing",
+      "7+ years (2018 – present)",
+      "55% less manual roster coordination",
+      "85% release automation (CI/CD)",
+      "50,000+ monthly operational records",
+      "75+ active Singapore client sites",
     ],
     techBadges: [
       "PHP",
@@ -120,178 +123,161 @@ export const projects: Project[] = [
     category: "Enterprise",
     coverImage: "/projects/eroster.png",
     overview:
-      "Enterprise platform for planning and deploying security officers — scheduling, attendance, overtime, and audit trails in one system.",
-    role: "Senior full-stack engineer — owned services, data model, and integrations across rostering, attendance, and payroll workflows.",
+      "Real-time operations platform for site-based day and night shift rostering across condos and commercial sites — planning officers by rank with attendance, patrolling, office management, and leave workflows.",
+    role: "Senior Full-Stack Engineer — end-to-end ownership of rostering services, iREP attendance integration, and operational reporting.",
     backendHighlights: [
-      "Service boundaries for scheduling, attendance ingestion, and overtime rules with traceable audit history",
-      "Automation for roster generation and payroll handoff, reducing manual reconciliation",
-      "Multi-database footprint (MySQL, MSSQL, MongoDB) with clear ownership per domain",
+      "Automated scheduling, overtime approval, and leave management with compliance reporting and audit-ready manpower summaries (daily, weekly, monthly, yearly)",
+      "Integrated iREP for officer attendance clock-in/out on Laravel and Node.js backends, reducing manual roster coordination by 55%",
+      "Multi-database architecture (MySQL, MSSQL, MongoDB) with REST APIs and Vue.js (TypeScript) operations dashboards",
     ],
     features: [
-      "Automated shift scheduling",
-      "Rostering Dashboard",
-      "Attendance Dashboard",
-      "Attendance & overtime integration",
-      "Notifications & operational alerts",
+      "Real-time rostering dashboard",
+      "Attendance & iREP integration",
+      "Overtime & leave workflows",
+      "Compliance reporting",
       "Audit-ready history",
     ],
     challenges:
-      "Coordinating accurate attendance and overtime across sites while keeping the roster solvent — required robust validation, idempotent jobs, and clear escalation paths for edge cases.",
+      "Coordinating accurate attendance and overtime across distributed Singapore sites while keeping rosters solvent — required robust validation, idempotent jobs, and traceable audit trails.",
     results:
-      "Centralized rostering for large officer deployments with fewer scheduling conflicts and faster payroll readiness.",
-    stack: [
-      "PHP",
-      "Laravel",
-      "Node.js",
-      "Vue.js",
-      "MySQL",
-      "MSSQL",
-      "MongoDB",
-      "AWS",
-      "GitHub",
-    ],
+      "Reduced operational processing overhead by 65% and centralized rostering for large officer deployments across 75+ active Singapore client sites.",
+    stack: ["Laravel", "Node.js", "Vue.js", "TypeScript", "REST APIs", "MySQL", "MSSQL", "MongoDB", "AWS"],
   },
   {
     title: "Visitor Management System (VMS)",
     category: "Enterprise",
     coverImage: "/projects/vms.png",
     overview:
-      "End-to-end visitor journeys: pre-registration, on-site check-in, badge printing, tracking, and access-control integration.",
-    role: "Full-stack engineer — Laravel services, React UI flows, and integrations with access-control endpoints.",
+      "End-to-end visitor and shared-space operations: pre-registration, check-in, host notification, badge printing, access control, facility booking, and LPR entry tracking.",
+    role: "Senior Full-Stack Engineer — Laravel services, React (TypeScript) UI, and third-party hardware integrations.",
     backendHighlights: [
-      "Normalized visitor lifecycle APIs with printable badge pipeline",
-      "Integration hooks for physical access systems and audit logging",
-      "Role-aware dashboards for facility operators",
+      "Third-party door lock integration with digital handover/takeover forms for KTV, dining, and shared facility rooms",
+      "Separate LPR (license plate recognition) workflows for automated car and motorcycle entry tracking",
+      "PDPA-aligned visitor logging with compliance-ready check-in/out tracking and host notification automation",
     ],
     features: [
-      "Real Time Visitor Tracking",
       "Pre-registration & host notifications",
       "Badge printing pipeline",
-      "Facility Booking System with 3rd Party Doorlock",
+      "Facility booking & door lock integration",
+      "LPR car & motorcycle entry",
       "Access-control handoff",
     ],
     challenges:
       "Balancing low-latency check-in at peak traffic with dependable hardware integrations — implemented resilient queues and retries around third-party access endpoints.",
     results:
-      "Faster, traceable visitor processing and fewer manual overrides at security desks.",
-    stack: ["PHP", "Laravel", "React.js", "Tailwind CSS", "MySQL", "AWS", "GitHub"],
+      "Improved audit readiness by 35% through PDPA-aligned workflows and structured visitor lifecycle APIs.",
+    stack: ["React.js", "TypeScript", "Laravel", "REST APIs", "MySQL", "AWS", "DigitalOcean"],
   },
   {
     title: "Metro-Officer Application (PWA)",
     category: "Web Platform",
     coverImage: "/projects/emetro.png",
     overview:
-      "Progressive web app for officers — schedules, availability, announcements, feedback, and employment details. Optimized for reliable mobile use.",
-    role: "Senior engineer — performance-focused frontend and APIs supporting offline-tolerant flows where applicable.",
+      "Officer-facing progressive web app for schedules, leave requests, announcements, feedback, and employment details on desktop and mobile.",
+    role: "Senior Full-Stack Engineer — Vue/Inertia frontend, Laravel APIs, and Bitbucket CI/CD to AWS/DigitalOcean.",
     backendHighlights: [
-      "APIs tuned for mobile latency and concise payloads",
-      "Caching and asset strategy for responsive PWA shells",
-      "Secure session handling for distributed workforce devices",
+      "Offline schedule caching and role-based access for distributed field staff",
+      "Push-style announcements and leave-request workflows on MSSQL-backed services",
+      "Production releases automated through Bitbucket CI/CD pipelines",
     ],
-    features: ["Responsive scheduling", "Availability updates", "Announcements", "Feedback loops"],
+    features: ["Responsive scheduling", "Leave requests", "Announcements", "Feedback loops", "Offline schedule caching"],
     challenges:
       "Field connectivity variability — prioritized resilient UI states, minimal round-trips, and pragmatic caching for critical roster data.",
     results:
-      "Officers accessed up-to-date schedules and HR information without relying on a native app store deployment.",
-    stack: ["PHP", "Laravel", "Inertia", "Vue.js", "PWA", "REST", "AWS"],
+      "Officers accessed up-to-date schedules and HR information without a native app store deployment across Singapore operational sites.",
+    stack: ["Vue.js", "Inertia", "Laravel", "MSSQL", "Bitbucket CI/CD", "AWS", "DigitalOcean", "PWA"],
   },
   {
-    title: "DNI (Daily Need Items) — E-commerce",
+    title: "DNI E-commerce Platform (Daily Need Items)",
     category: "E-commerce",
     coverImage: "/projects/dnistore.webp",
     overview:
-      "Full commerce stack: catalog, cart, favorites, checkout, delivery, invoices — built for scale across web and mobile experiences.",
-    role: "Full-stack developer — Laravel/Livewire services, storefront performance, and payment-ready flows.",
+      "Full order-lifecycle commerce platform: catalog, cart, checkout, warehouse management, delivery tracking, invoicing, and customer favorites.",
+    role: "Software Engineer (Full-Stack) — Laravel/Livewire services, JavaScript/TypeScript UI, and fulfillment workflows on MySQL, AWS, and DigitalOcean.",
     backendHighlights: [
-      "Order and fulfillment services with provider-normalized delivery hooks",
-      "Invoice generation and customer communications",
-      "Operational dashboards for merchandising teams",
+      "End-to-end order, inventory, and warehouse stock workflows with automated billing and fulfillment notifications",
+      "Microservices-oriented architecture with Laravel, Node.js, React.js, TypeScript, and GraphQL service boundaries",
+      "MySQL query optimization and streamlined checkout workflows for catalog and billing performance",
     ],
-    features: ["Catalog & search", "Cart & checkout", "Delivery tracking", "Invoice automation"],
+    features: ["Catalog & cart", "Warehouse management", "Delivery tracking", "Invoice automation", "Customer favorites"],
     challenges:
-      "Unifying divergent delivery provider contracts behind a single internal interface so merchandising did not need bespoke logic per vendor.",
+      "Unifying divergent delivery provider contracts behind a single internal interface so operations did not need bespoke logic per vendor.",
     results:
-      "Reliable end-to-end purchasing with fewer manual interventions on fulfillment and billing.",
+      "Supported full browse-to-fulfillment order lifecycle with automated billing and reliable production operations — honest technical ownership without inflated scale claims.",
     stack: [
-      "PHP",
       "Laravel",
       "Livewire",
-      "jQuery",
-      "Bootstrap",
+      "Node.js",
+      "React.js",
+      "TypeScript",
+      "GraphQL",
+      "Docker",
       "MySQL",
-      "DigitalOcean",
+      "MongoDB",
+      "PostgreSQL",
       "AWS",
-      "GitHub",
+      "DigitalOcean",
     ],
   },
   {
-    title: "ITVISIONHUB Online Training Course",
+    title: "Online Training Platform",
     category: "Learning Platform",
     overview:
-      "Course platform for modern web stacks with emphasis on secure coding (SQLi, CSRF, XSS, validation, session hygiene) and toolchain depth.",
-    role: "Full-stack developer — curriculum tooling, media/course structure, and student-facing UX across React/Vue/Livewire surfaces.",
+      "Learning platform with course catalog, module delivery, enrollment workflows, and student progress tracking for software engineering training programs.",
+    role: "Software Engineer (Full-Stack) — reusable content management, enrollment flows, and Laravel/Livewire delivery surfaces.",
     backendHighlights: [
-      "Modular course delivery with progress tracking",
-      "Secure-by-default examples wired into Laravel",
-      "Multi-database support (MySQL, SQLite) for environment flexibility",
+      "Reusable content management for structured software engineering training programs",
+      "Enrollment workflows and progress tracking across React.js, Vue.js, and TypeScript frontends",
+      "Secure coding curriculum modules (validation, session hygiene, common web vulnerabilities)",
     ],
     features: [
-      "Multi-technology tracks (HTML → Laravel → Vue/React/Node)",
-      "Security modules with runnable samples",
+      "Course catalog & modules",
+      "Enrollment workflows",
+      "Progress tracking",
       "Instructor content tools",
     ],
     challenges:
       "Keeping lessons current across fast-moving frameworks while preserving pedagogical consistency — structured content pipelines and versioned lesson assets.",
     results:
-      "Consistent, security-aware training delivery for cohorts learning full-stack engineering.",
-    stack: [
-      "PHP",
-      "Laravel",
-      "Livewire",
-      "React",
-      "Vue",
-      "MySQL",
-      "SQLite",
-      "AWS",
-      "GitHub",
-    ],
+      "Launched training and invoice modules alongside DNI delivery, with automated billing document generation on Laravel and Livewire.",
+    stack: ["Laravel", "Livewire", "React.js", "Vue.js", "TypeScript", "MySQL"],
   },
   {
     title: "Invoice System",
     category: "Business Tool",
     coverImage: "/projects/mmeasyinvoice.png",
     overview:
-      "Invoice lifecycle: create, brand (logo/theming), send, collect, and report — mobile-friendly for operators in the field.",
-    role: "Full-stack engineer — Inertia/Vue UX with Laravel APIs on MSSQL, Bitbucket CI to AWS.",
+      "Invoice issuance, branding customization, payment tracking, and reporting for daily business operations — mobile-friendly for field operators.",
+    role: "Software Engineer (Full-Stack) — Laravel/Livewire billing workflows and automated document generation.",
     backendHighlights: [
-      "Branding and templating pipeline per tenant",
-      "Payment tracking with reporting exports",
-      "Inertia/Vue stack for fast iteration on finance workflows",
+      "Automated billing document generation and payment status workflows",
+      "Branding and templating pipeline (logo/theming) per tenant",
+      "Operational reporting exports for finance stakeholders",
     ],
-    features: ["Branded PDFs", "Payment status", "Mobile layouts", "Operational reporting"],
+    features: ["Branded invoices", "Payment tracking", "Mobile layouts", "Operational reporting"],
     challenges:
-      "Accurate financial reporting across currencies/tax variants while keeping MSSQL schemas maintainable for finance stakeholders.",
+      "Accurate financial reporting while keeping schemas maintainable for finance stakeholders and iterative Livewire UX delivery.",
     results:
-      "Finance teams replaced spreadsheet workflows with a single auditable system.",
-    stack: ["PHP", "Laravel", "Inertia", "Vue.js", "Tailwind CSS", "MSSQL", "Bitbucket", "AWS"],
+      "Finance teams replaced spreadsheet workflows with a single auditable billing system with automated document generation.",
+    stack: ["Laravel", "Livewire", "MySQL"],
   },
   {
-    title: "Cool Fancy Shop (Internship)",
+    title: "Internship E-commerce Application",
     category: "Internship",
     coverImage: "/projects/coolfancyshop.png",
     overview:
-      "Six-month internship capstone: Laravel-powered e-commerce with catalog, cart, and checkout — Bootstrap storefront and MySQL persistence.",
-    role: "Intern developer — Laravel services, Bootstrap UI, and relational modeling with disciplined Git workflow.",
+      "Six-month university internship capstone at ITVISIONHUB: Laravel e-commerce application with catalog, cart, and checkout supporting 100+ SKUs.",
+    role: "Software Engineering Intern — Laravel backend, Bootstrap UI, and GitHub-based team delivery.",
     backendHighlights: [
-      "RESTful checkout and catalog flows backed by Laravel and MySQL",
-      "Responsive Bootstrap storefront with AJAX-enhanced UX where appropriate",
-      "Git-based delivery and foundational deployment hygiene (DigitalOcean)",
+      "Hands-on feature development and bug fixes on PHP, Laravel, JavaScript, and MySQL",
+      "React Native mobile UI components and navigation flows alongside the core Laravel stack",
+      "Earned full-time offer after internship through consistent production-style delivery",
     ],
-    features: ["Product catalog", "Cart & checkout", "Admin basics"],
+    features: ["Product catalog", "Cart & checkout", "React Native UI exposure"],
     challenges:
-      "First end-to-end production-style build — prioritized clear MVC boundaries, migration hygiene, and readable handoff docs.",
-    results: "Shipped a functioning storefront demonstrating full-stack fundamentals.",
-    stack: ["PHP", "Laravel", "Bootstrap", "HTML5", "CSS3", "JavaScript", "MySQL", "Git", "DigitalOcean"],
+      "First production-grade team workflow — focused on predictable MVC boundaries, migration hygiene, and readable handoff docs.",
+    results: "Delivered a functioning e-commerce application and converted internship into a full-time engineering role at ITVISIONHUB.",
+    stack: ["PHP", "Laravel", "Bootstrap", "JavaScript", "MySQL", "React Native", "GitHub"],
     isPrivate: false,
   },
 ];
@@ -307,97 +293,112 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    period: "2023 - 2025",
-    role: "Senior Software Engineer (Full-Stack)",
+    period: "09/2023 – 08/2025",
+    role: "Senior Full-Stack Engineer",
     company: "Metropolis Security Systems Pte. Ltd.",
-    location: "Singapore",
+    location: "Singapore · On-site",
     points: [
-      "Owned end-to-end delivery of the core product suite (eRoster, Visitor Management System, Metro-Officer PWA).",
-      "Architected and operated Docker/Kubernetes microservices on AWS (EC2, RDS, S3, CI/CD pipelines, observability-aligned ops).",
-      "Automated rostering and payroll handoffs; standardized Laravel/Vue/Inertia and React stacks with measurable integration reliability.",
-      "Mentored engineers, raised code-review quality, and documented runbooks so security-operations workflows survived team rotation.",
+      "Led end-to-end delivery of 3 production platforms (eRoster, VMS, Metro-Officer PWA) on Laravel and Node.js backends, integrating iREP for officer attendance clock-in/out — reducing manual roster coordination by 55% and operational processing overhead by 65%.",
+      "Architected PDPA-aligned compliance workflows with audit trails and access-control integrations, improving audit readiness by 35%.",
+      "Delivered facility booking management with third-party door lock integration and digital handover/takeover forms for KTV, dining, and shared facility rooms; built separate LPR workflows for car and motorcycle entry tracking.",
+      "Scaled production environments on AWS and DigitalOcean processing 50,000+ monthly operational records, automating 85% of releases via GitHub Actions and Bitbucket CI/CD.",
+      "Partnered with project manager, operations stakeholders, and engineering colleagues to translate business requirements into production releases and ongoing platform support.",
     ],
     stack: [
-      "PHP",
       "Laravel",
-      "Vue.js",
-      "React",
       "Node.js",
-      "Docker",
-      "Kubernetes",
-      "AWS",
-      "MySQL",
-      "MongoDB",
-      "MSSQL",
-    ],
-  },
-  {
-    period: "2019 - 2023",
-    role: "Senior Full-Stack Developer",
-    company: "ITVISIONHUB Co., Ltd.",
-    location: "Yangon, Myanmar",
-    points: [
-      "Delivered DNI e-commerce, training platform, and invoice systems with PHP, Laravel, Node.js, Vue/React, and Livewire.",
-      "Owned integrations across MySQL/MSSQL/SQLite/MongoDB with pragmatic cloud hosting on DigitalOcean and AWS.",
-      "Collaborated across design tooling (Figma/Wireframes) for courseware and product marketing surfaces.",
-    ],
-    stack: [
-      "PHP",
-      "Laravel",
-      "Livewire",
-      "Inertia",
       "Vue.js",
       "React.js",
-      "Node.js",
+      "TypeScript",
+      "REST APIs",
       "MySQL",
       "MSSQL",
+      "MongoDB",
       "AWS",
       "DigitalOcean",
+      "Docker",
+      "CI/CD",
     ],
   },
   {
-    period: "May 2018 - Nov 2018",
-    role: "Intern — Full-Stack Developer",
-    company: "Studio AMK Co., Ltd.",
-    location: "Yangon, Myanmar",
+    period: "09/2020 – 08/2023",
+    role: "Software Engineer (Full-Stack)",
+    company: "ITVISIONHUB Co., Ltd.",
+    location: "Yangon, Myanmar · On-site",
     points: [
-      "Delivered “Cool Fancy Shop” e-commerce capstone end-to-end under a six-month internship program.",
-      "Implemented Laravel services, Bootstrap storefront (HTML5/CSS3/JS), and MySQL persistence with Git-based workflow.",
+      "Built end-to-end DNI E-commerce (catalog, cart, checkout, warehouse, delivery, invoicing) with Laravel, Livewire, and JavaScript/TypeScript UI workflows on MySQL, AWS, and DigitalOcean — supporting full order lifecycle from browse to fulfillment.",
+      "Launched Online Training Platform and Invoice System modules with reusable content management, enrollment workflows, and automated billing document generation on Laravel and Livewire.",
+      "Improved catalog and checkout performance through MySQL query optimization, streamlined order workflows, and automated billing processes.",
     ],
-    stack: ["PHP", "Laravel", "Bootstrap", "HTML5", "CSS3", "JavaScript", "MySQL", "Git", "DigitalOcean"],
+    stack: [
+      "Laravel",
+      "Livewire",
+      "React.js",
+      "Vue.js",
+      "TypeScript",
+      "Node.js",
+      "GraphQL",
+      "MySQL",
+      "AWS",
+      "DigitalOcean",
+      "Docker",
+    ],
+  },
+  {
+    period: "01/2019 – 08/2020",
+    role: "Junior Full-Stack Developer",
+    company: "ITVISIONHUB Co., Ltd.",
+    location: "Yangon, Myanmar · On-site",
+    points: [
+      "Promoted to full-time after internship and shipped production features across DNI e-commerce and internal business systems on Laravel, MySQL, and Bootstrap.",
+      "Shipped catalog, checkout, and order management features across iterative releases on Laravel and MySQL, supporting DNI e-commerce production operations.",
+    ],
+    stack: ["Laravel", "MySQL", "Bootstrap", "JavaScript", "PHP"],
+  },
+  {
+    period: "05/2018 – 11/2018",
+    role: "Software Engineering Intern",
+    company: "ITVISIONHUB Co., Ltd.",
+    location: "Yangon, Myanmar · On-site",
+    points: [
+      "Completed 6-month internship during final-year university, delivering an e-commerce application with Laravel, MySQL, and Bootstrap supporting 100+ SKUs.",
+      "Delivered hands-on feature development and bug fixes on PHP, Laravel, JavaScript, MySQL, and GitHub-based team workflows — earning a full-time offer after the internship.",
+      "Implemented React Native mobile UI components and navigation flows, applying cross-platform development patterns alongside the core Laravel stack.",
+    ],
+    stack: ["Laravel", "MySQL", "Bootstrap", "JavaScript", "React Native", "GitHub", "PHP"],
   },
 ];
 
 export const summaryHighlights = [
   {
-    title: "Full-stack delivery",
+    title: "Singapore enterprise delivery",
     description:
-      "Production features across Laravel, Vue/Inertia, React/Next.js, and Node — from admin consoles to PWAs and public marketing sites.",
+      "Led 3 production platforms at Metropolis Security Systems — rostering, visitor management, and officer PWA — across 75+ active Singapore client sites (100+ total deployments).",
   },
   {
-    title: "Platform & data",
+    title: "Measurable operations impact",
     description:
-      "Schema design across MySQL, MSSQL, PostgreSQL, MongoDB, and SQLite with pragmatic normalization.",
+      "55% reduction in manual roster coordination, 65% lower operational processing overhead, 35% improved audit readiness, and 40% reduction in production downtime.",
   },
   {
-    title: "APIs & security",
+    title: "Cloud & release reliability",
     description:
-      "REST and GraphQL services with disciplined validation, auth middleware, and operational observability.",
+      "AWS and DigitalOcean production ownership processing 50,000+ monthly operational records with 85% of releases automated via GitHub Actions and Bitbucket CI/CD.",
   },
   {
-    title: "Cloud & containers",
+    title: "Full-stack product breadth",
     description:
-      "AWS ownership (EC2, RDS, S3, CI/CD) plus hands-on Docker/Kubernetes deployments.",
+      "Laravel, Vue.js, React.js, Next.js, Node.js, and TypeScript across enterprise security ops and customer-facing commerce/training products.",
   },
   {
-    title: "Automation & SDLC",
+    title: "Polyglot data & APIs",
     description:
-      "GitHub/Bitbucket CI/CD, Agile delivery, mentoring, and clear documentation for handoff.",
+      "MySQL, MSSQL, MongoDB, PostgreSQL, Redis, and RabbitMQ with REST APIs, GraphQL, and integration adapters for access control and fulfillment.",
   },
   {
-    title: "Singapore on-site",
+    title: "Market-neutral availability",
     description:
-      "Seeking on-site roles in Singapore with S Pass / EP eligibility and immediate availability.",
+      "Singapore on-site (S Pass / EP eligible), global remote (APAC / EMEA / US-friendly time zones), and Vietnam on-site with openness to Malaysia relocation.",
   },
 ] as const;
 
@@ -421,9 +422,9 @@ export const backendExpertiseAreas = [
   {
     title: "Cloud & DevOps",
     points: [
-      "AWS (EC2, RDS, S3, CI/CD) with pragmatic cost controls",
-      "CI/CD on GitHub Actions and Bitbucket pipelines",
-      "Container packaging for repeatable staging/production parity",
+      "AWS (EC2, RDS, S3, Route 53, SES, ELB, CodePipeline, CloudWatch) and DigitalOcean production ops",
+      "85% release automation via GitHub Actions and Bitbucket CI/CD pipelines",
+      "Docker packaging and Kubernetes exposure for containerized service delivery",
     ],
   },
   {
@@ -445,9 +446,9 @@ export const backendExpertiseAreas = [
   {
     title: "Leadership & collaboration",
     points: [
-      "Mentoring juniors and elevating code review quality",
-      "Cross-functional clarity — translating security operations needs into software",
-      "Documentation that survives team rotation",
+      "Partnered with PMs, operations stakeholders, and engineers on production releases",
+      "Translated security-operations requirements into shippable platform increments",
+      "Secure coding discipline from training platform delivery into enterprise features",
     ],
   },
 ] as const;
@@ -464,44 +465,58 @@ export const skillGroups: {
   skills: SkillItem[];
 }[] = [
   {
-    title: "Backend",
+    title: "Core Technologies",
     skills: [
-      { name: "PHP / Laravel", level: "Expert" },
+      { name: "Laravel / PHP", level: "Expert" },
       { name: "Node.js", level: "Advanced" },
+      { name: "Vue.js / Inertia", level: "Expert" },
+      { name: "React.js / Next.js", level: "Advanced" },
+      { name: "TypeScript / JavaScript", level: "Advanced" },
+      { name: "Livewire", level: "Advanced" },
+    ],
+  },
+  {
+    title: "Cloud & DevOps",
+    skills: [
+      { name: "AWS (EC2, RDS, S3, CI/CD)", level: "Advanced" },
+      { name: "DigitalOcean", level: "Advanced" },
+      { name: "Docker", level: "Advanced" },
+      { name: "Kubernetes", level: "Advanced" },
+      { name: "GitHub Actions / Bitbucket CI/CD", level: "Expert" },
+      { name: "Nginx / Apache", level: "Advanced" },
+    ],
+  },
+  {
+    title: "Architecture & APIs",
+    skills: [
       { name: "REST APIs", level: "Expert" },
       { name: "GraphQL", level: "Advanced" },
       { name: "Microservices", level: "Advanced" },
-      { name: "Livewire / Inertia", level: "Advanced" },
+      { name: "RBAC / Modular architecture", level: "Advanced" },
+      { name: "Event-driven / queue workflows", level: "Advanced" },
+      { name: "Component architecture (UI)", level: "Expert" },
     ],
   },
   {
-    title: "Frontend",
-    skills: [
-      { name: "Vue.js", level: "Expert" },
-      { name: "React / Next.js", level: "Advanced" },
-      { name: "TypeScript / JavaScript", level: "Advanced" },
-      { name: "Tailwind CSS / Bootstrap", level: "Expert" },
-      { name: "HTML5 / CSS3", level: "Expert" },
-    ],
-  },
-  {
-    title: "Data",
+    title: "Database & Infrastructure",
     skills: [
       { name: "MySQL", level: "Expert" },
+      { name: "MSSQL", level: "Advanced" },
       { name: "PostgreSQL", level: "Advanced" },
       { name: "MongoDB", level: "Advanced" },
-      { name: "MSSQL", level: "Advanced" },
-      { name: "SQLite", level: "Advanced" },
+      { name: "Redis / RabbitMQ", level: "Advanced" },
+      { name: "Query optimization / schema design", level: "Expert" },
     ],
   },
   {
-    title: "Platform",
+    title: "Additional Experience",
     skills: [
-      { name: "Docker", level: "Advanced" },
-      { name: "Kubernetes", level: "Advanced" },
-      { name: "AWS", level: "Advanced" },
-      { name: "CI/CD (GitHub/Bitbucket)", level: "Expert" },
+      { name: "Tailwind CSS / Bootstrap", level: "Expert" },
+      { name: "React Native (exposure)", level: "Advanced" },
+      { name: "Agile SDLC", level: "Advanced" },
+      { name: "Postman / API testing", level: "Advanced" },
       { name: "Git / SourceTree", level: "Advanced" },
+      { name: "Legacy jQuery/Ajax maintenance", level: "Advanced" },
     ],
   },
 ];
@@ -541,57 +556,57 @@ export const architecturePatterns = [
 
 export const achievements = [
   {
-    metric: "Mission-critical",
-    label: "Security operations",
-    description: "Delivered rostering, visitor, and field tooling used daily by distributed teams.",
+    metric: "55%",
+    label: "Less manual roster work",
+    description: "Reduced manual roster coordination through iREP attendance integration and automated scheduling across Singapore operational sites.",
   },
   {
-    metric: "Microservices",
-    label: "Docker & Kubernetes",
-    description: "Hands-on container orchestration paired with AWS infrastructure ownership.",
+    metric: "85%",
+    label: "Release automation",
+    description: "Automated releases via GitHub Actions and Bitbucket CI/CD while scaling AWS and DigitalOcean environments processing 50,000+ monthly operational records.",
   },
   {
-    metric: "Polyglot data",
-    label: "SQL + NoSQL",
-    description: "Modeled workloads across MySQL, MSSQL, MongoDB, PostgreSQL, and SQLite.",
+    metric: "1,000+",
+    label: "Daily attendance records",
+    description: "Supported internal platforms processing high-volume attendance data across 75+ active Singapore client sites (100+ total deployments).",
   },
   {
-    metric: "Availability",
-    label: "Singapore · remote",
-    description: "On-site Singapore (S Pass / EP) as primary focus; selective senior full-remote scopes when alignment is mutual.",
+    metric: "Open",
+    label: "Multi-market roles",
+    description: "Singapore on-site (S Pass / EP), global remote, and Vietnam/Malaysia on-site — available immediately from Da Nang, Vietnam.",
   },
 ] as const;
 
 export const whyHireReasons = [
   {
-    title: "Operates like an owner",
+    title: "Enterprise system ownership",
     description:
-      "End-to-end accountability — from discovery with stakeholders to production support and iterative tuning.",
+      "Led end-to-end delivery of eRoster, VMS, and Metro-Officer PWA at Metropolis — production context where downtime directly impacts officers and facilities.",
   },
   {
-    title: "Production hardened",
+    title: "Defensible outcomes",
     description:
-      "Experience in environments where downtime directly impacts officers and facilities — favors graceful degradation.",
+      "65% lower operational processing overhead, 35% improved audit readiness, and 40% reduction in production downtime — metrics tied to real Singapore deployments.",
   },
   {
-    title: "Modern full-stack breadth",
+    title: "Full-stack + cloud delivery",
     description:
-      "Balances Laravel/Vue strengths with React/Next and Node services when teams need heterogeneous stacks.",
+      "Laravel, Vue.js, React.js, Node.js, and TypeScript on AWS/DigitalOcean with Docker, CI/CD, and pragmatic release automation.",
   },
   {
-    title: "Security-aware delivery",
+    title: "Integration-heavy platforms",
     description:
-      "Training background emphasizes secure coding patterns; carries that discipline into enterprise features.",
+      "iREP attendance, door lock hardware, LPR entry tracking, and PDPA-aligned audit workflows — not just CRUD admin panels.",
   },
   {
-    title: "Mentor & multiplier",
+    title: "Product engineering breadth",
     description:
-      "Develops juniors, documents decisions, and keeps reviews focused on risk and customer outcomes.",
+      "DNI e-commerce, training platform, and invoice systems at ITVISIONHUB — honest ownership of order lifecycle and billing automation.",
   },
   {
-    title: "Singapore-forward",
+    title: "Collaborative senior IC",
     description:
-      "Primary focus on on-site Singapore (S Pass / EP) with clear compensation bands; open to selective remote roles at senior scope.",
+      "Partnered with project managers, operations stakeholders, and engineering colleagues to ship production releases and ongoing platform support.",
   },
 ] as const;
 
@@ -605,20 +620,21 @@ export const interpersonalStrengths = [
 export const workModes = [
   {
     label: "Singapore on-site",
-    description: "Primary focus — S Pass / EP pathways with immediate availability.",
-  },
-  {
-    label: "Hybrid flexibility",
-    description: "Open to hybrid if anchored on meaningful in-person collaboration.",
-  },
-  {
-    label: "Global collaboration",
-    description: "Experienced coordinating async workflows across Myanmar → Singapore delivery.",
-  },
-  {
-    label: "Remote / contract (selective)",
     description:
-      "Open to verified remote engagements or defined contract outcomes when scope matches senior IC ownership.",
+      "Primary differentiator — hands-on Metropolis enterprise delivery; S Pass / Employment Pass eligible; immediate availability.",
+  },
+  {
+    label: "Global remote",
+    description:
+      "Open to senior full-stack roles with APAC, EMEA, or US-friendly time zones and async collaboration maturity.",
+  },
+  {
+    label: "Vietnam on-site",
+    description: "Based in Da Nang City, Vietnam — available for on-site engineering roles locally.",
+  },
+  {
+    label: "Malaysia relocation",
+    description: "Open to on-site opportunities in Malaysia when scope aligns with senior IC ownership.",
   },
 ] as const;
 

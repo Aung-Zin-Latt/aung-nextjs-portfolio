@@ -20,16 +20,16 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Aung Zin Latt · Senior Full-Stack Engineer",
+    default: "Aung Zin Latt — Senior Full-Stack Engineer | Laravel, React, Node.js, AWS",
     template: "%s · Aung Zin Latt",
   },
   description:
-    "Senior full-stack engineer (Laravel, Vue/React, AWS, Kubernetes) seeking Singapore on-site roles — rostering, visitor management, and enterprise PWAs.",
+    "Senior Full-Stack Engineer with Singapore enterprise experience at Metropolis Security Systems. Laravel, React.js, Vue.js, Node.js, AWS, Docker, and CI/CD — rostering, visitor management, and product delivery.",
   metadataBase: new URL("https://aungzinlatt.netlify.app"),
   openGraph: {
-    title: "Aung Zin Latt · Senior Full-Stack Engineer",
+    title: "Aung Zin Latt — Senior Full-Stack Engineer | Laravel, React, Node.js, AWS",
     description:
-      "Mission-critical systems, microservices on AWS, and full-stack delivery for security operations platforms.",
+      "Enterprise system ownership across eRoster, VMS, and officer PWA platforms — 7+ years full-stack delivery on AWS with measurable operational impact.",
     url: "https://aungzinlatt.netlify.app",
     siteName: "Aung Zin Latt",
     locale: "en_SG",

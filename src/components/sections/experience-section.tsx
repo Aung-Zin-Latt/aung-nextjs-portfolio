@@ -15,7 +15,7 @@ export function ExperienceSection() {
         <SectionHeading
           label="Experience"
           title="Where I have delivered impact"
-          subtitle="Singapore security technology platforms plus formative full-stack roles in Myanmar"
+          subtitle="Metropolis Security Systems (Singapore) plus ITVISIONHUB product delivery in Myanmar"
         />
         <div className="relative max-w-3xl">
           <div className="absolute top-2 bottom-2 left-[13px] w-px bg-gradient-to-b from-primary/30 via-border to-transparent" />

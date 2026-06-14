@@ -68,7 +68,11 @@ export function HeroSection() {
             </motion.div>
 
             <h1 className="text-heading-hero mb-4 max-w-full break-words [overflow-wrap:anywhere]">
-              <span className="text-gradient">Senior Software Engineer (Full-Stack)</span>
+              <span className="text-gradient">{siteConfig.hero.roleTitle}</span>
+              <br />
+              <span className="text-[0.42em] font-medium tracking-[-0.02em] text-foreground/60 sm:text-[0.45em]">
+                {siteConfig.hero.roleSubtitle}
+              </span>
               <br />
               <span className="text-[0.5em] font-medium tracking-[-0.02em] text-foreground/50">
                 {siteConfig.title}
@@ -133,7 +137,7 @@ export function HeroSection() {
               </Button>
               {cvUrl ? (
                 <Button variant="hero-outline" size="lg" className="w-full shrink-0 sm:w-auto sm:justify-center" asChild>
-                  <a href={cvUrl} download="AUNG-ZIN-LATT.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href={cvUrl} download="Aung-Zin-Latt-Full-Stack-Engineer-SG-On-site.pdf" target="_blank" rel="noopener noreferrer">
                     <Download size={15} aria-hidden /> Download CV
                   </a>
                 </Button>

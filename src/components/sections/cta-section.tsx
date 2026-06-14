@@ -24,10 +24,10 @@ export function CTASection() {
             style={{ boxShadow: "inset 0 0 80px hsl(var(--glow) / 0.04)" }}
           />
           <div className="relative z-10">
-            <h2 className="text-heading-hero mb-4">Need a senior engineer on-site in Singapore?</h2>
+            <h2 className="text-heading-hero mb-4">Ready for senior full-stack ownership?</h2>
             <p className="mx-auto mb-8 max-w-lg text-[17px] leading-relaxed text-muted-foreground">
-              I am targeting full-time roles (S Pass / EP) with immediate availability and a track record owning mission-critical
-              systems end-to-end.
+              Singapore enterprise delivery, global remote, or Vietnam/Malaysia on-site — immediate availability with a track record
+              across eRoster, VMS, and product platforms.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3">
               <Button variant="hero" size="lg" asChild>
@@ -37,7 +37,7 @@ export function CTASection() {
               </Button>
               {cvUrl ? (
                 <Button variant="hero-outline" size="lg" asChild>
-                  <a href={cvUrl} download="AUNG-ZIN-LATT.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href={cvUrl} download="Aung-Zin-Latt-Full-Stack-Engineer-SG-On-site.pdf" target="_blank" rel="noopener noreferrer">
                     <Download size={15} /> Download CV
                   </a>
                 </Button>

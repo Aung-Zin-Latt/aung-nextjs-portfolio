@@ -24,7 +24,7 @@ export function Footer() {
           </Button>
           {cvUrl ? (
             <Button variant="hero-outline" size="lg" asChild>
-              <a href={cvUrl} download="AUNG-ZIN-LATT.pdf" target="_blank" rel="noopener noreferrer">
+              <a href={cvUrl} download="Aung-Zin-Latt-Full-Stack-Engineer-SG-On-site.pdf" target="_blank" rel="noopener noreferrer">
                 <Download size={15} /> Download CV
               </a>
             </Button>

@@ -17,7 +17,7 @@ export function WorkAvailabilitySection() {
         <SectionHeading
           label="Availability"
           title="How I can partner with you"
-          subtitle="Focused on Singapore on-site hiring — transparent about pass types, timeline, and compensation"
+          subtitle="Singapore on-site, global remote, and Vietnam/Malaysia on-site — transparent about timeline and pass eligibility"
         />
 
         <div className="mb-8 grid gap-3 rounded-xl border border-border bg-card p-5 md:grid-cols-3 md:p-6">
@@ -31,7 +31,7 @@ export function WorkAvailabilitySection() {
           </div>
           <div>
             <p className="text-[14px] font-semibold uppercase tracking-[0.16em] text-primary">Pass eligibility</p>
-            <p className="mt-1 text-base text-foreground">{siteConfig.location.detail}</p>
+            <p className="mt-1 text-base text-foreground">{siteConfig.workAuthorization}</p>
           </div>
         </div>
 
